@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3544FC671822C0BE00F80F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544FC661822C0BE00F80F89 /* Foundation.framework */; };
+		3544FC691822C0BE00F80F89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544FC681822C0BE00F80F89 /* CoreGraphics.framework */; };
+		3544FC6B1822C0BE00F80F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544FC6A1822C0BE00F80F89 /* UIKit.framework */; };
+		3544FC711822C0BE00F80F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3544FC6F1822C0BE00F80F89 /* InfoPlist.strings */; };
+		3544FC731822C0BE00F80F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FC721822C0BE00F80F89 /* main.m */; };
+		3544FC771822C0BE00F80F89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FC761822C0BE00F80F89 /* AppDelegate.m */; };
+		3544FC7A1822C0BE00F80F89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3544FC781822C0BE00F80F89 /* Main.storyboard */; };
+		3544FC7D1822C0BE00F80F89 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FC7C1822C0BE00F80F89 /* MasterViewController.m */; };
+		3544FC801822C0BE00F80F89 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FC7F1822C0BE00F80F89 /* DetailViewController.m */; };
+		3544FC821822C0BE00F80F89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3544FC811822C0BE00F80F89 /* Images.xcassets */; };
+		3544FC891822C0BE00F80F89 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544FC881822C0BE00F80F89 /* XCTest.framework */; };
+		3544FC8A1822C0BE00F80F89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544FC661822C0BE00F80F89 /* Foundation.framework */; };
+		3544FC8B1822C0BE00F80F89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3544FC6A1822C0BE00F80F89 /* UIKit.framework */; };
+		3544FC931822C0BE00F80F89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3544FC911822C0BE00F80F89 /* InfoPlist.strings */; };
+		3544FC951822C0BE00F80F89 /* ScaryBugsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FC941822C0BE00F80F89 /* ScaryBugsTests.m */; };
+		3544FCA61822C14600F80F89 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3544FC9F1822C14600F80F89 /* centipede.jpg */; };
+		3544FCA71822C14600F80F89 /* ChuckNorrisIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3544FCA01822C14600F80F89 /* ChuckNorrisIcon.png */; };
+		3544FCA81822C14600F80F89 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3544FCA11822C14600F80F89 /* ladybug.jpg */; };
+		3544FCA91822C14600F80F89 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3544FCA21822C14600F80F89 /* potatoBug.jpg */; };
+		3544FCAA1822C14600F80F89 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3544FCA31822C14600F80F89 /* shockedface2_empty.png */; };
+		3544FCAB1822C14600F80F89 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 3544FCA41822C14600F80F89 /* shockedface2_full.png */; };
+		3544FCAC1822C14600F80F89 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3544FCA51822C14600F80F89 /* wolfSpider.jpg */; };
+		3544FCAF1822C29400F80F89 /* ScaryBug.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FCAE1822C29400F80F89 /* ScaryBug.m */; };
+		3544FCB21822C67500F80F89 /* ScaryBugCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3544FCB11822C67500F80F89 /* ScaryBugCell.m */; };
+		35EDF4DD1826DC4600761A06 /* DefaultBugs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 35EDF4DC1826DC4600761A06 /* DefaultBugs.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3544FC8C1822C0BE00F80F89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3544FC5B1822C0BE00F80F89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3544FC621822C0BE00F80F89;
+			remoteInfo = ScaryBugs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3544FC631822C0BE00F80F89 /* ScaryBugs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3544FC661822C0BE00F80F89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3544FC681822C0BE00F80F89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3544FC6A1822C0BE00F80F89 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3544FC6E1822C0BE00F80F89 /* ScaryBugs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugs-Info.plist"; sourceTree = "<group>"; };
+		3544FC701822C0BE00F80F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3544FC721822C0BE00F80F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3544FC741822C0BE00F80F89 /* ScaryBugs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScaryBugs-Prefix.pch"; sourceTree = "<group>"; };
+		3544FC751822C0BE00F80F89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3544FC761822C0BE00F80F89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3544FC791822C0BE00F80F89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3544FC7B1822C0BE00F80F89 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		3544FC7C1822C0BE00F80F89 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		3544FC7E1822C0BE00F80F89 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3544FC7F1822C0BE00F80F89 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		3544FC811822C0BE00F80F89 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3544FC871822C0BE00F80F89 /* ScaryBugsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3544FC881822C0BE00F80F89 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3544FC901822C0BE00F80F89 /* ScaryBugsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScaryBugsTests-Info.plist"; sourceTree = "<group>"; };
+		3544FC921822C0BE00F80F89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3544FC941822C0BE00F80F89 /* ScaryBugsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsTests.m; sourceTree = "<group>"; };
+		3544FC9F1822C14600F80F89 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		3544FCA01822C14600F80F89 /* ChuckNorrisIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChuckNorrisIcon.png; sourceTree = "<group>"; };
+		3544FCA11822C14600F80F89 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		3544FCA21822C14600F80F89 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		3544FCA31822C14600F80F89 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		3544FCA41822C14600F80F89 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		3544FCA51822C14600F80F89 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		3544FCAD1822C29400F80F89 /* ScaryBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBug.h; sourceTree = "<group>"; };
+		3544FCAE1822C29400F80F89 /* ScaryBug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBug.m; sourceTree = "<group>"; };
+		3544FCB01822C67500F80F89 /* ScaryBugCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugCell.h; sourceTree = "<group>"; };
+		3544FCB11822C67500F80F89 /* ScaryBugCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugCell.m; sourceTree = "<group>"; };
+		35EDF4DC1826DC4600761A06 /* DefaultBugs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DefaultBugs.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3544FC601822C0BE00F80F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544FC691822C0BE00F80F89 /* CoreGraphics.framework in Frameworks */,
+				3544FC6B1822C0BE00F80F89 /* UIKit.framework in Frameworks */,
+				3544FC671822C0BE00F80F89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544FC841822C0BE00F80F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544FC891822C0BE00F80F89 /* XCTest.framework in Frameworks */,
+				3544FC8B1822C0BE00F80F89 /* UIKit.framework in Frameworks */,
+				3544FC8A1822C0BE00F80F89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3544FC5A1822C0BE00F80F89 = {
+			isa = PBXGroup;
+			children = (
+				3544FC6C1822C0BE00F80F89 /* ScaryBugs */,
+				3544FC8E1822C0BE00F80F89 /* ScaryBugsTests */,
+				3544FC651822C0BE00F80F89 /* Frameworks */,
+				3544FC641822C0BE00F80F89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3544FC641822C0BE00F80F89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3544FC631822C0BE00F80F89 /* ScaryBugs.app */,
+				3544FC871822C0BE00F80F89 /* ScaryBugsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3544FC651822C0BE00F80F89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3544FC661822C0BE00F80F89 /* Foundation.framework */,
+				3544FC681822C0BE00F80F89 /* CoreGraphics.framework */,
+				3544FC6A1822C0BE00F80F89 /* UIKit.framework */,
+				3544FC881822C0BE00F80F89 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3544FC6C1822C0BE00F80F89 /* ScaryBugs */ = {
+			isa = PBXGroup;
+			children = (
+				35EDF4DC1826DC4600761A06 /* DefaultBugs.plist */,
+				3544FC9E1822C14600F80F89 /* Demo */,
+				3544FC751822C0BE00F80F89 /* AppDelegate.h */,
+				3544FC761822C0BE00F80F89 /* AppDelegate.m */,
+				3544FC781822C0BE00F80F89 /* Main.storyboard */,
+				3544FC7B1822C0BE00F80F89 /* MasterViewController.h */,
+				3544FC7C1822C0BE00F80F89 /* MasterViewController.m */,
+				3544FC7E1822C0BE00F80F89 /* DetailViewController.h */,
+				3544FC7F1822C0BE00F80F89 /* DetailViewController.m */,
+				3544FC811822C0BE00F80F89 /* Images.xcassets */,
+				3544FC6D1822C0BE00F80F89 /* Supporting Files */,
+				3544FCAD1822C29400F80F89 /* ScaryBug.h */,
+				3544FCAE1822C29400F80F89 /* ScaryBug.m */,
+				3544FCB01822C67500F80F89 /* ScaryBugCell.h */,
+				3544FCB11822C67500F80F89 /* ScaryBugCell.m */,
+			);
+			path = ScaryBugs;
+			sourceTree = "<group>";
+		};
+		3544FC6D1822C0BE00F80F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3544FC6E1822C0BE00F80F89 /* ScaryBugs-Info.plist */,
+				3544FC6F1822C0BE00F80F89 /* InfoPlist.strings */,
+				3544FC721822C0BE00F80F89 /* main.m */,
+				3544FC741822C0BE00F80F89 /* ScaryBugs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3544FC8E1822C0BE00F80F89 /* ScaryBugsTests */ = {
+			isa = PBXGroup;
+			children = (
+				3544FC941822C0BE00F80F89 /* ScaryBugsTests.m */,
+				3544FC8F1822C0BE00F80F89 /* Supporting Files */,
+			);
+			path = ScaryBugsTests;
+			sourceTree = "<group>";
+		};
+		3544FC8F1822C0BE00F80F89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3544FC901822C0BE00F80F89 /* ScaryBugsTests-Info.plist */,
+				3544FC911822C0BE00F80F89 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3544FC9E1822C14600F80F89 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3544FC9F1822C14600F80F89 /* centipede.jpg */,
+				3544FCA01822C14600F80F89 /* ChuckNorrisIcon.png */,
+				3544FCA11822C14600F80F89 /* ladybug.jpg */,
+				3544FCA21822C14600F80F89 /* potatoBug.jpg */,
+				3544FCA31822C14600F80F89 /* shockedface2_empty.png */,
+				3544FCA41822C14600F80F89 /* shockedface2_full.png */,
+				3544FCA51822C14600F80F89 /* wolfSpider.jpg */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3544FC621822C0BE00F80F89 /* ScaryBugs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3544FC981822C0BE00F80F89 /* Build configuration list for PBXNativeTarget "ScaryBugs" */;
+			buildPhases = (
+				3544FC5F1822C0BE00F80F89 /* Sources */,
+				3544FC601822C0BE00F80F89 /* Frameworks */,
+				3544FC611822C0BE00F80F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryBugs;
+			productName = ScaryBugs;
+			productReference = 3544FC631822C0BE00F80F89 /* ScaryBugs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3544FC861822C0BE00F80F89 /* ScaryBugsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3544FC9B1822C0BE00F80F89 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */;
+			buildPhases = (
+				3544FC831822C0BE00F80F89 /* Sources */,
+				3544FC841822C0BE00F80F89 /* Frameworks */,
+				3544FC851822C0BE00F80F89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3544FC8D1822C0BE00F80F89 /* PBXTargetDependency */,
+			);
+			name = ScaryBugsTests;
+			productName = ScaryBugsTests;
+			productReference = 3544FC871822C0BE00F80F89 /* ScaryBugsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3544FC5B1822C0BE00F80F89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					3544FC861822C0BE00F80F89 = {
+						TestTargetID = 3544FC621822C0BE00F80F89;
+					};
+				};
+			};
+			buildConfigurationList = 3544FC5E1822C0BE00F80F89 /* Build configuration list for PBXProject "ScaryBugs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3544FC5A1822C0BE00F80F89;
+			productRefGroup = 3544FC641822C0BE00F80F89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3544FC621822C0BE00F80F89 /* ScaryBugs */,
+				3544FC861822C0BE00F80F89 /* ScaryBugsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3544FC611822C0BE00F80F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544FC821822C0BE00F80F89 /* Images.xcassets in Resources */,
+				3544FCAA1822C14600F80F89 /* shockedface2_empty.png in Resources */,
+				3544FCAC1822C14600F80F89 /* wolfSpider.jpg in Resources */,
+				3544FCA91822C14600F80F89 /* potatoBug.jpg in Resources */,
+				3544FCAB1822C14600F80F89 /* shockedface2_full.png in Resources */,
+				3544FCA71822C14600F80F89 /* ChuckNorrisIcon.png in Resources */,
+				3544FCA61822C14600F80F89 /* centipede.jpg in Resources */,
+				35EDF4DD1826DC4600761A06 /* DefaultBugs.plist in Resources */,
+				3544FC711822C0BE00F80F89 /* InfoPlist.strings in Resources */,
+				3544FCA81822C14600F80F89 /* ladybug.jpg in Resources */,
+				3544FC7A1822C0BE00F80F89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544FC851822C0BE00F80F89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544FC931822C0BE00F80F89 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3544FC5F1822C0BE00F80F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544FC771822C0BE00F80F89 /* AppDelegate.m in Sources */,
+				3544FCB21822C67500F80F89 /* ScaryBugCell.m in Sources */,
+				3544FCAF1822C29400F80F89 /* ScaryBug.m in Sources */,
+				3544FC7D1822C0BE00F80F89 /* MasterViewController.m in Sources */,
+				3544FC731822C0BE00F80F89 /* main.m in Sources */,
+				3544FC801822C0BE00F80F89 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3544FC831822C0BE00F80F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3544FC951822C0BE00F80F89 /* ScaryBugsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3544FC8D1822C0BE00F80F89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3544FC621822C0BE00F80F89 /* ScaryBugs */;
+			targetProxy = 3544FC8C1822C0BE00F80F89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3544FC6F1822C0BE00F80F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3544FC701822C0BE00F80F89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3544FC781822C0BE00F80F89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3544FC791822C0BE00F80F89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3544FC911822C0BE00F80F89 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3544FC921822C0BE00F80F89 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3544FC961822C0BE00F80F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3544FC971822C0BE00F80F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3544FC991822C0BE00F80F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3544FC9A1822C0BE00F80F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugs/ScaryBugs-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3544FC9C1822C0BE00F80F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScaryBugs.app/ScaryBugs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScaryBugsTests/ScaryBugsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3544FC9D1822C0BE00F80F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScaryBugs.app/ScaryBugs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScaryBugs/ScaryBugs-Prefix.pch";
+				INFOPLIST_FILE = "ScaryBugsTests/ScaryBugsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3544FC5E1822C0BE00F80F89 /* Build configuration list for PBXProject "ScaryBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544FC961822C0BE00F80F89 /* Debug */,
+				3544FC971822C0BE00F80F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3544FC981822C0BE00F80F89 /* Build configuration list for PBXNativeTarget "ScaryBugs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544FC991822C0BE00F80F89 /* Debug */,
+				3544FC9A1822C0BE00F80F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3544FC9B1822C0BE00F80F89 /* Build configuration list for PBXNativeTarget "ScaryBugsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3544FC9C1822C0BE00F80F89 /* Debug */,
+				3544FC9D1822C0BE00F80F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3544FC5B1822C0BE00F80F89 /* Project object */;
+}

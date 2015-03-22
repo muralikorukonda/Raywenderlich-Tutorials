@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF18B44B190ECCC000844BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF18B44A190ECCC000844BD0 /* Foundation.framework */; };
+		CF18B44D190ECCC000844BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF18B44C190ECCC000844BD0 /* CoreGraphics.framework */; };
+		CF18B44F190ECCC000844BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF18B44E190ECCC000844BD0 /* UIKit.framework */; };
+		CF18B455190ECCC000844BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF18B453190ECCC000844BD0 /* InfoPlist.strings */; };
+		CF18B457190ECCC000844BD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18B456190ECCC000844BD0 /* main.m */; };
+		CF18B45B190ECCC000844BD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18B45A190ECCC000844BD0 /* AppDelegate.m */; };
+		CF18B45E190ECCC000844BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF18B45C190ECCC000844BD0 /* Main.storyboard */; };
+		CF18B461190ECCC000844BD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18B460190ECCC000844BD0 /* ViewController.m */; };
+		CF18B463190ECCC000844BD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF18B462190ECCC000844BD0 /* Images.xcassets */; };
+		CF18B46A190ECCC000844BD0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF18B469190ECCC000844BD0 /* XCTest.framework */; };
+		CF18B46B190ECCC000844BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF18B44A190ECCC000844BD0 /* Foundation.framework */; };
+		CF18B46C190ECCC000844BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF18B44E190ECCC000844BD0 /* UIKit.framework */; };
+		CF18B474190ECCC000844BD0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF18B472190ECCC000844BD0 /* InfoPlist.strings */; };
+		CF18B476190ECCC000844BD0 /* WatchpointChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF18B475190ECCC000844BD0 /* WatchpointChallengeTests.m */; };
+		CFA7485C190ED24800806969 /* stat_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CFA7485B190ED24800806969 /* stat_background.png */; };
+		CFA7485E190ED99E00806969 /* command.py in Resources */ = {isa = PBXBuildFile; fileRef = CFA7485D190ED99E00806969 /* command.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF18B46D190ECCC000844BD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF18B43F190ECCC000844BD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF18B446190ECCC000844BD0;
+			remoteInfo = WatchpointChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF18B447190ECCC000844BD0 /* WatchpointChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchpointChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF18B44A190ECCC000844BD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF18B44C190ECCC000844BD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF18B44E190ECCC000844BD0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CF18B452190ECCC000844BD0 /* WatchpointChallenge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WatchpointChallenge-Info.plist"; sourceTree = "<group>"; };
+		CF18B454190ECCC000844BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF18B456190ECCC000844BD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF18B458190ECCC000844BD0 /* WatchpointChallenge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchpointChallenge-Prefix.pch"; sourceTree = "<group>"; };
+		CF18B459190ECCC000844BD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF18B45A190ECCC000844BD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF18B45D190ECCC000844BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF18B45F190ECCC000844BD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF18B460190ECCC000844BD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF18B462190ECCC000844BD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF18B468190ECCC000844BD0 /* WatchpointChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchpointChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF18B469190ECCC000844BD0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CF18B471190ECCC000844BD0 /* WatchpointChallengeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WatchpointChallengeTests-Info.plist"; sourceTree = "<group>"; };
+		CF18B473190ECCC000844BD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF18B475190ECCC000844BD0 /* WatchpointChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchpointChallengeTests.m; sourceTree = "<group>"; };
+		CFA7485B190ED24800806969 /* stat_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stat_background.png; sourceTree = "<group>"; };
+		CFA7485D190ED99E00806969 /* command.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = command.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF18B444190ECCC000844BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18B44D190ECCC000844BD0 /* CoreGraphics.framework in Frameworks */,
+				CF18B44F190ECCC000844BD0 /* UIKit.framework in Frameworks */,
+				CF18B44B190ECCC000844BD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18B465190ECCC000844BD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18B46A190ECCC000844BD0 /* XCTest.framework in Frameworks */,
+				CF18B46C190ECCC000844BD0 /* UIKit.framework in Frameworks */,
+				CF18B46B190ECCC000844BD0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF18B43E190ECCC000844BD0 = {
+			isa = PBXGroup;
+			children = (
+				CF18B450190ECCC000844BD0 /* WatchpointChallenge */,
+				CF18B46F190ECCC000844BD0 /* WatchpointChallengeTests */,
+				CF18B449190ECCC000844BD0 /* Frameworks */,
+				CF18B448190ECCC000844BD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF18B448190ECCC000844BD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF18B447190ECCC000844BD0 /* WatchpointChallenge.app */,
+				CF18B468190ECCC000844BD0 /* WatchpointChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF18B449190ECCC000844BD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF18B44A190ECCC000844BD0 /* Foundation.framework */,
+				CF18B44C190ECCC000844BD0 /* CoreGraphics.framework */,
+				CF18B44E190ECCC000844BD0 /* UIKit.framework */,
+				CF18B469190ECCC000844BD0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF18B450190ECCC000844BD0 /* WatchpointChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7485B190ED24800806969 /* stat_background.png */,
+				CF18B459190ECCC000844BD0 /* AppDelegate.h */,
+				CF18B45A190ECCC000844BD0 /* AppDelegate.m */,
+				CF18B45C190ECCC000844BD0 /* Main.storyboard */,
+				CF18B45F190ECCC000844BD0 /* ViewController.h */,
+				CF18B460190ECCC000844BD0 /* ViewController.m */,
+				CF18B462190ECCC000844BD0 /* Images.xcassets */,
+				CF18B451190ECCC000844BD0 /* Supporting Files */,
+				CFA7485D190ED99E00806969 /* command.py */,
+			);
+			path = WatchpointChallenge;
+			sourceTree = "<group>";
+		};
+		CF18B451190ECCC000844BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF18B452190ECCC000844BD0 /* WatchpointChallenge-Info.plist */,
+				CF18B453190ECCC000844BD0 /* InfoPlist.strings */,
+				CF18B456190ECCC000844BD0 /* main.m */,
+				CF18B458190ECCC000844BD0 /* WatchpointChallenge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF18B46F190ECCC000844BD0 /* WatchpointChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF18B475190ECCC000844BD0 /* WatchpointChallengeTests.m */,
+				CF18B470190ECCC000844BD0 /* Supporting Files */,
+			);
+			path = WatchpointChallengeTests;
+			sourceTree = "<group>";
+		};
+		CF18B470190ECCC000844BD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF18B471190ECCC000844BD0 /* WatchpointChallengeTests-Info.plist */,
+				CF18B472190ECCC000844BD0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF18B446190ECCC000844BD0 /* WatchpointChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18B479190ECCC000844BD0 /* Build configuration list for PBXNativeTarget "WatchpointChallenge" */;
+			buildPhases = (
+				CF18B443190ECCC000844BD0 /* Sources */,
+				CF18B444190ECCC000844BD0 /* Frameworks */,
+				CF18B445190ECCC000844BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchpointChallenge;
+			productName = WatchpointChallenge;
+			productReference = CF18B447190ECCC000844BD0 /* WatchpointChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF18B467190ECCC000844BD0 /* WatchpointChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF18B47C190ECCC000844BD0 /* Build configuration list for PBXNativeTarget "WatchpointChallengeTests" */;
+			buildPhases = (
+				CF18B464190ECCC000844BD0 /* Sources */,
+				CF18B465190ECCC000844BD0 /* Frameworks */,
+				CF18B466190ECCC000844BD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF18B46E190ECCC000844BD0 /* PBXTargetDependency */,
+			);
+			name = WatchpointChallengeTests;
+			productName = WatchpointChallengeTests;
+			productReference = CF18B468190ECCC000844BD0 /* WatchpointChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF18B43F190ECCC000844BD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					CF18B467190ECCC000844BD0 = {
+						TestTargetID = CF18B446190ECCC000844BD0;
+					};
+				};
+			};
+			buildConfigurationList = CF18B442190ECCC000844BD0 /* Build configuration list for PBXProject "WatchpointChallenge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF18B43E190ECCC000844BD0;
+			productRefGroup = CF18B448190ECCC000844BD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF18B446190ECCC000844BD0 /* WatchpointChallenge */,
+				CF18B467190ECCC000844BD0 /* WatchpointChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF18B445190ECCC000844BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18B463190ECCC000844BD0 /* Images.xcassets in Resources */,
+				CFA7485C190ED24800806969 /* stat_background.png in Resources */,
+				CF18B455190ECCC000844BD0 /* InfoPlist.strings in Resources */,
+				CF18B45E190ECCC000844BD0 /* Main.storyboard in Resources */,
+				CFA7485E190ED99E00806969 /* command.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18B466190ECCC000844BD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18B474190ECCC000844BD0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF18B443190ECCC000844BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18B461190ECCC000844BD0 /* ViewController.m in Sources */,
+				CF18B45B190ECCC000844BD0 /* AppDelegate.m in Sources */,
+				CF18B457190ECCC000844BD0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF18B464190ECCC000844BD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18B476190ECCC000844BD0 /* WatchpointChallengeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF18B46E190ECCC000844BD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF18B446190ECCC000844BD0 /* WatchpointChallenge */;
+			targetProxy = CF18B46D190ECCC000844BD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF18B453190ECCC000844BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF18B454190ECCC000844BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF18B45C190ECCC000844BD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF18B45D190ECCC000844BD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF18B472190ECCC000844BD0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF18B473190ECCC000844BD0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF18B477190ECCC000844BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF18B478190ECCC000844BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF18B47A190ECCC000844BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatchpointChallenge/WatchpointChallenge-Prefix.pch";
+				INFOPLIST_FILE = "WatchpointChallenge/WatchpointChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF18B47B190ECCC000844BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatchpointChallenge/WatchpointChallenge-Prefix.pch";
+				INFOPLIST_FILE = "WatchpointChallenge/WatchpointChallenge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF18B47D190ECCC000844BD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatchpointChallenge.app/WatchpointChallenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatchpointChallenge/WatchpointChallenge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchpointChallengeTests/WatchpointChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CF18B47E190ECCC000844BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WatchpointChallenge.app/WatchpointChallenge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WatchpointChallenge/WatchpointChallenge-Prefix.pch";
+				INFOPLIST_FILE = "WatchpointChallengeTests/WatchpointChallengeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF18B442190ECCC000844BD0 /* Build configuration list for PBXProject "WatchpointChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18B477190ECCC000844BD0 /* Debug */,
+				CF18B478190ECCC000844BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18B479190ECCC000844BD0 /* Build configuration list for PBXNativeTarget "WatchpointChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18B47A190ECCC000844BD0 /* Debug */,
+				CF18B47B190ECCC000844BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF18B47C190ECCC000844BD0 /* Build configuration list for PBXNativeTarget "WatchpointChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF18B47D190ECCC000844BD0 /* Debug */,
+				CF18B47E190ECCC000844BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF18B43F190ECCC000844BD0 /* Project object */;
+}

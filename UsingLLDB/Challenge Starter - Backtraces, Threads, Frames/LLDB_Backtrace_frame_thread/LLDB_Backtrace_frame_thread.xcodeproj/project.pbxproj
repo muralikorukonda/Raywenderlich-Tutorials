@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD235BC19017A9300D10203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD235BB19017A9300D10203 /* Foundation.framework */; };
+		CFD235BE19017A9300D10203 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD235BD19017A9300D10203 /* CoreGraphics.framework */; };
+		CFD235C019017A9300D10203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD235BF19017A9300D10203 /* UIKit.framework */; };
+		CFD235C619017A9300D10203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD235C419017A9300D10203 /* InfoPlist.strings */; };
+		CFD235C819017A9300D10203 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD235C719017A9300D10203 /* main.m */; };
+		CFD235CC19017A9300D10203 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD235CB19017A9300D10203 /* AppDelegate.m */; };
+		CFD235CF19017A9300D10203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD235CD19017A9300D10203 /* Main.storyboard */; };
+		CFD235D219017A9300D10203 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD235D119017A9300D10203 /* ViewController.m */; };
+		CFD235D419017A9300D10203 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD235D319017A9300D10203 /* Images.xcassets */; };
+		CFD235DB19017A9300D10203 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD235DA19017A9300D10203 /* XCTest.framework */; };
+		CFD235DC19017A9300D10203 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD235BB19017A9300D10203 /* Foundation.framework */; };
+		CFD235DD19017A9300D10203 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFD235BF19017A9300D10203 /* UIKit.framework */; };
+		CFD235E519017A9300D10203 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFD235E319017A9300D10203 /* InfoPlist.strings */; };
+		CFD235E719017A9300D10203 /* LLDB_Backtrace_frame_threadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD235E619017A9300D10203 /* LLDB_Backtrace_frame_threadTests.m */; };
+		CFD235F21901813E00D10203 /* InterestCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD235F11901813E00D10203 /* InterestCalculator.m */; };
+		CFD235F41901892800D10203 /* low_res_background.png in Resources */ = {isa = PBXBuildFile; fileRef = CFD235F31901892800D10203 /* low_res_background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD235DE19017A9300D10203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD235B019017A9300D10203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD235B719017A9300D10203;
+			remoteInfo = LLDB_Backtrace_frame_thread;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD235B819017A9300D10203 /* LLDB_Backtrace_frame_thread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLDB_Backtrace_frame_thread.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD235BB19017A9300D10203 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFD235BD19017A9300D10203 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFD235BF19017A9300D10203 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFD235C319017A9300D10203 /* LLDB_Backtrace_frame_thread-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LLDB_Backtrace_frame_thread-Info.plist"; sourceTree = "<group>"; };
+		CFD235C519017A9300D10203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD235C719017A9300D10203 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFD235C919017A9300D10203 /* LLDB_Backtrace_frame_thread-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LLDB_Backtrace_frame_thread-Prefix.pch"; sourceTree = "<group>"; };
+		CFD235CA19017A9300D10203 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFD235CB19017A9300D10203 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFD235CE19017A9300D10203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFD235D019017A9300D10203 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFD235D119017A9300D10203 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFD235D319017A9300D10203 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFD235D919017A9300D10203 /* LLDB_Backtrace_frame_threadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLDB_Backtrace_frame_threadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD235DA19017A9300D10203 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CFD235E219017A9300D10203 /* LLDB_Backtrace_frame_threadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LLDB_Backtrace_frame_threadTests-Info.plist"; sourceTree = "<group>"; };
+		CFD235E419017A9300D10203 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFD235E619017A9300D10203 /* LLDB_Backtrace_frame_threadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDB_Backtrace_frame_threadTests.m; sourceTree = "<group>"; };
+		CFD235F01901813E00D10203 /* InterestCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterestCalculator.h; sourceTree = "<group>"; };
+		CFD235F11901813E00D10203 /* InterestCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterestCalculator.m; sourceTree = "<group>"; };
+		CFD235F31901892800D10203 /* low_res_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = low_res_background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD235B519017A9300D10203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD235BE19017A9300D10203 /* CoreGraphics.framework in Frameworks */,
+				CFD235C019017A9300D10203 /* UIKit.framework in Frameworks */,
+				CFD235BC19017A9300D10203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD235D619017A9300D10203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD235DB19017A9300D10203 /* XCTest.framework in Frameworks */,
+				CFD235DD19017A9300D10203 /* UIKit.framework in Frameworks */,
+				CFD235DC19017A9300D10203 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD235AF19017A9300D10203 = {
+			isa = PBXGroup;
+			children = (
+				CFD235C119017A9300D10203 /* LLDB_Backtrace_frame_thread */,
+				CFD235E019017A9300D10203 /* LLDB_Backtrace_frame_threadTests */,
+				CFD235BA19017A9300D10203 /* Frameworks */,
+				CFD235B919017A9300D10203 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD235B919017A9300D10203 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD235B819017A9300D10203 /* LLDB_Backtrace_frame_thread.app */,
+				CFD235D919017A9300D10203 /* LLDB_Backtrace_frame_threadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD235BA19017A9300D10203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFD235BB19017A9300D10203 /* Foundation.framework */,
+				CFD235BD19017A9300D10203 /* CoreGraphics.framework */,
+				CFD235BF19017A9300D10203 /* UIKit.framework */,
+				CFD235DA19017A9300D10203 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFD235C119017A9300D10203 /* LLDB_Backtrace_frame_thread */ = {
+			isa = PBXGroup;
+			children = (
+				CFD235CA19017A9300D10203 /* AppDelegate.h */,
+				CFD235CB19017A9300D10203 /* AppDelegate.m */,
+				CFD235CD19017A9300D10203 /* Main.storyboard */,
+				CFD235D019017A9300D10203 /* ViewController.h */,
+				CFD235D119017A9300D10203 /* ViewController.m */,
+				CFD235D319017A9300D10203 /* Images.xcassets */,
+				CFD235C219017A9300D10203 /* Supporting Files */,
+				CFD235F01901813E00D10203 /* InterestCalculator.h */,
+				CFD235F11901813E00D10203 /* InterestCalculator.m */,
+				CFD235F31901892800D10203 /* low_res_background.png */,
+			);
+			path = LLDB_Backtrace_frame_thread;
+			sourceTree = "<group>";
+		};
+		CFD235C219017A9300D10203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD235C319017A9300D10203 /* LLDB_Backtrace_frame_thread-Info.plist */,
+				CFD235C419017A9300D10203 /* InfoPlist.strings */,
+				CFD235C719017A9300D10203 /* main.m */,
+				CFD235C919017A9300D10203 /* LLDB_Backtrace_frame_thread-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFD235E019017A9300D10203 /* LLDB_Backtrace_frame_threadTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD235E619017A9300D10203 /* LLDB_Backtrace_frame_threadTests.m */,
+				CFD235E119017A9300D10203 /* Supporting Files */,
+			);
+			path = LLDB_Backtrace_frame_threadTests;
+			sourceTree = "<group>";
+		};
+		CFD235E119017A9300D10203 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFD235E219017A9300D10203 /* LLDB_Backtrace_frame_threadTests-Info.plist */,
+				CFD235E319017A9300D10203 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD235B719017A9300D10203 /* LLDB_Backtrace_frame_thread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD235EA19017A9300D10203 /* Build configuration list for PBXNativeTarget "LLDB_Backtrace_frame_thread" */;
+			buildPhases = (
+				CFD235B419017A9300D10203 /* Sources */,
+				CFD235B519017A9300D10203 /* Frameworks */,
+				CFD235B619017A9300D10203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLDB_Backtrace_frame_thread;
+			productName = LLDB_Backtrace_frame_thread;
+			productReference = CFD235B819017A9300D10203 /* LLDB_Backtrace_frame_thread.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD235D819017A9300D10203 /* LLDB_Backtrace_frame_threadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD235ED19017A9300D10203 /* Build configuration list for PBXNativeTarget "LLDB_Backtrace_frame_threadTests" */;
+			buildPhases = (
+				CFD235D519017A9300D10203 /* Sources */,
+				CFD235D619017A9300D10203 /* Frameworks */,
+				CFD235D719017A9300D10203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD235DF19017A9300D10203 /* PBXTargetDependency */,
+			);
+			name = LLDB_Backtrace_frame_threadTests;
+			productName = LLDB_Backtrace_frame_threadTests;
+			productReference = CFD235D919017A9300D10203 /* LLDB_Backtrace_frame_threadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD235B019017A9300D10203 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Razeware;
+				TargetAttributes = {
+					CFD235D819017A9300D10203 = {
+						TestTargetID = CFD235B719017A9300D10203;
+					};
+				};
+			};
+			buildConfigurationList = CFD235B319017A9300D10203 /* Build configuration list for PBXProject "LLDB_Backtrace_frame_thread" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD235AF19017A9300D10203;
+			productRefGroup = CFD235B919017A9300D10203 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD235B719017A9300D10203 /* LLDB_Backtrace_frame_thread */,
+				CFD235D819017A9300D10203 /* LLDB_Backtrace_frame_threadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD235B619017A9300D10203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD235D419017A9300D10203 /* Images.xcassets in Resources */,
+				CFD235C619017A9300D10203 /* InfoPlist.strings in Resources */,
+				CFD235CF19017A9300D10203 /* Main.storyboard in Resources */,
+				CFD235F41901892800D10203 /* low_res_background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD235D719017A9300D10203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD235E519017A9300D10203 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD235B419017A9300D10203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD235D219017A9300D10203 /* ViewController.m in Sources */,
+				CFD235CC19017A9300D10203 /* AppDelegate.m in Sources */,
+				CFD235C819017A9300D10203 /* main.m in Sources */,
+				CFD235F21901813E00D10203 /* InterestCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD235D519017A9300D10203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD235E719017A9300D10203 /* LLDB_Backtrace_frame_threadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD235DF19017A9300D10203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD235B719017A9300D10203 /* LLDB_Backtrace_frame_thread */;
+			targetProxy = CFD235DE19017A9300D10203 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFD235C419017A9300D10203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD235C519017A9300D10203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFD235CD19017A9300D10203 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD235CE19017A9300D10203 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD235E319017A9300D10203 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD235E419017A9300D10203 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD235E819017A9300D10203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFD235E919017A9300D10203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD235EB19017A9300D10203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDB_Backtrace_frame_thread/LLDB_Backtrace_frame_thread-Prefix.pch";
+				INFOPLIST_FILE = "LLDB_Backtrace_frame_thread/LLDB_Backtrace_frame_thread-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFD235EC19017A9300D10203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDB_Backtrace_frame_thread/LLDB_Backtrace_frame_thread-Prefix.pch";
+				INFOPLIST_FILE = "LLDB_Backtrace_frame_thread/LLDB_Backtrace_frame_thread-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFD235EE19017A9300D10203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLDB_Backtrace_frame_thread.app/LLDB_Backtrace_frame_thread";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDB_Backtrace_frame_thread/LLDB_Backtrace_frame_thread-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LLDB_Backtrace_frame_threadTests/LLDB_Backtrace_frame_threadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CFD235EF19017A9300D10203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LLDB_Backtrace_frame_thread.app/LLDB_Backtrace_frame_thread";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LLDB_Backtrace_frame_thread/LLDB_Backtrace_frame_thread-Prefix.pch";
+				INFOPLIST_FILE = "LLDB_Backtrace_frame_threadTests/LLDB_Backtrace_frame_threadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD235B319017A9300D10203 /* Build configuration list for PBXProject "LLDB_Backtrace_frame_thread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD235E819017A9300D10203 /* Debug */,
+				CFD235E919017A9300D10203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD235EA19017A9300D10203 /* Build configuration list for PBXNativeTarget "LLDB_Backtrace_frame_thread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD235EB19017A9300D10203 /* Debug */,
+				CFD235EC19017A9300D10203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFD235ED19017A9300D10203 /* Build configuration list for PBXNativeTarget "LLDB_Backtrace_frame_threadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD235EE19017A9300D10203 /* Debug */,
+				CFD235EF19017A9300D10203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD235B019017A9300D10203 /* Project object */;
+}

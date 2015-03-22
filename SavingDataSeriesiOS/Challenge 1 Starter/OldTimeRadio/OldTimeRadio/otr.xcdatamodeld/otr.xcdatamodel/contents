@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13D65" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Episode" representedClassName="Episode" syncable="YES">
+        <attribute name="broadcastDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="episodeId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="fileLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="favorite" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Favorite" inverseName="episode" inverseEntity="Favorite" syncable="YES"/>
+        <relationship name="parentShow" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="RadioShow" inverseName="episodes" inverseEntity="RadioShow" syncable="YES"/>
+    </entity>
+    <entity name="Favorite" representedClassName="Favorite" syncable="YES">
+        <attribute name="favoriteDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episode" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Episode" inverseName="favorite" inverseEntity="Episode" syncable="YES"/>
+    </entity>
+    <entity name="RadioShow" representedClassName="RadioShow" syncable="YES">
+        <attribute name="showDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="showId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="thumbnailFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Episode" inverseName="parentShow" inverseEntity="Episode" syncable="YES"/>
+    </entity>
+    <entity name="Site" representedClassName="Site" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFree" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isMembershipRequired" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RadioShow" positionX="-2009" positionY="-555" width="128" height="118"/>
+        <element name="Episode" positionX="-1604" positionY="-622" width="128" height="133"/>
+        <element name="Favorite" positionX="-1818" positionY="-709" width="128" height="88"/>
+        <element name="Site" positionX="-2016" positionY="-711" width="128" height="103"/>
+    </elements>
+</model>

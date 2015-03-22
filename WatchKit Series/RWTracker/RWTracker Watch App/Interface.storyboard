@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Post List Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="PostListController" customModule="RWTracker_WatchKit_Extension">
+                    <items>
+                        <imageView width="40" height="40" alignment="center" image="RW_logo" contentMode="scaleAspectFit" id="EJH-88-dQv"/>
+                        <table alignment="left" id="sf2-Qu-uzf">
+                            <items>
+                                <tableRow identifier="PostRowType" id="jit-qZ-3qG" customClass="PostRowController" customModule="RWTracker_WatchKit_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="xxQ-Mv-Z7r">
+                                        <items>
+                                            <imageView width="16" height="16" alignment="left" image="podcast" id="e66-6z-yJd"/>
+                                            <group width="1" widthAdjustment="-16" alignment="left" layout="vertical" id="rs3-O1-bPv">
+                                                <items>
+                                                    <label alignment="left" text="Post text" numberOfLines="3" id="GG8-O2-9TN">
+                                                        <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                                                    </label>
+                                                    <label alignment="left" text="15 Jan 2015" id="fWR-Vh-WWf"/>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="dateLabel" destination="fWR-Vh-WWf" id="2kk-nG-j66"/>
+                                        <outlet property="titleLabel" destination="GG8-O2-9TN" id="2kf-fG-gwG"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="sf2-Qu-uzf" id="V5c-Dh-Axb"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="EOo-jf-kKp">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+    </dependencies>
+    <scenes>
+        <!--Page View Controller-->
+        <scene sceneID="f5D-lW-6q2">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" pageSpacing="10" navigationOrientation="horizontal" spineLocation="none" id="EOo-jf-kKp" customClass="RWTPageViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QuG-PM-Vv9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="425" y="22"/>
+        </scene>
+        <!--Tutorial Step View Controller-->
+        <scene sceneID="qt7-uX-yVi">
+            <objects>
+                <viewController storyboardIdentifier="RWTTutorialStepViewController" id="sWR-Z0-CAQ" customClass="RWTTutorialStepViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v8h-Wz-mGq"/>
+                        <viewControllerLayoutGuide type="bottom" id="nDI-j8-2Ix"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hGf-nc-cFT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_1" translatesAutoresizingMaskIntoConstraints="NO" id="sNW-C7-k42">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="icon_1" translatesAutoresizingMaskIntoConstraints="NO" id="Htv-cW-bRi">
+                                <rect key="frame" x="13" y="84" width="294" height="242"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="270" translatesAutoresizingMaskIntoConstraints="NO" id="uzp-Zx-wiD">
+                                <rect key="frame" x="25" y="364" width="270" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="AP0-dR-37s"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="PetShare is a pet photo sharing community.">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sNW-C7-k42" secondAttribute="trailing" id="47c-AT-bO2"/>
+                            <constraint firstItem="nDI-j8-2Ix" firstAttribute="top" secondItem="sNW-C7-k42" secondAttribute="bottom" id="7rc-dg-rh9"/>
+                            <constraint firstItem="sNW-C7-k42" firstAttribute="top" secondItem="hGf-nc-cFT" secondAttribute="top" id="7sW-wx-8zn"/>
+                            <constraint firstItem="uzp-Zx-wiD" firstAttribute="top" secondItem="Htv-cW-bRi" secondAttribute="bottom" constant="38" id="8CU-G5-cDN"/>
+                            <constraint firstItem="Htv-cW-bRi" firstAttribute="leading" secondItem="hGf-nc-cFT" secondAttribute="leading" constant="13" id="Rdl-vH-fab"/>
+                            <constraint firstItem="Htv-cW-bRi" firstAttribute="top" secondItem="v8h-Wz-mGq" secondAttribute="bottom" constant="64" id="UqV-BV-TQf"/>
+                            <constraint firstItem="uzp-Zx-wiD" firstAttribute="centerX" secondItem="Htv-cW-bRi" secondAttribute="centerX" constant="-13" id="tOQ-LD-AbX"/>
+                            <constraint firstItem="sNW-C7-k42" firstAttribute="leading" secondItem="hGf-nc-cFT" secondAttribute="leading" id="xvy-iq-N85"/>
+                            <constraint firstAttribute="centerX" secondItem="uzp-Zx-wiD" secondAttribute="centerX" id="yGp-vR-abH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bgImageView" destination="sNW-C7-k42" id="0Fb-i6-SLl"/>
+                        <outlet property="iconImageView" destination="Htv-cW-bRi" id="akp-4U-S91"/>
+                        <outlet property="textLabel" destination="uzp-Zx-wiD" id="u4K-I9-V60"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NNx-DW-PqX" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="828" y="22"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_1" width="320" height="568"/>
+        <image name="icon_1" width="294" height="242"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

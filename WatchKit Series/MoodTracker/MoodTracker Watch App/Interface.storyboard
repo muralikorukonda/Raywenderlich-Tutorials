@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MoodTracker_Watch_App" customModuleProvider="target">
+                    <items>
+                        <imageView alignment="center" image="rage0" id="a7j-SQ-A9v"/>
+                        <separator alignment="left" id="OM9-u8-5Uh"/>
+                        <label alignment="center" text="Current Mood:" id="QNj-CX-VV0"/>
+                        <slider width="1" alignment="left" maximum="4" steps="4" id="HhC-p8-E6d">
+                            <connections>
+                                <action selector="moodSliderChanged:" destination="AgC-eL-Hgc" id="gb3-wQ-xj3"/>
+                            </connections>
+                        </slider>
+                        <group width="1" alignment="left" id="bXR-mj-HaH">
+                            <items>
+                                <label alignment="left" text="Good" id="2md-j8-3pA"/>
+                                <label alignment="right" text="Rage" id="Twh-P3-BR2"/>
+                            </items>
+                        </group>
+                        <switch width="1" alignment="left" value="YES" title="Offer Advice" id="qlw-I5-qNH">
+                            <connections>
+                                <action selector="offerAdviceSwitchChanged:" destination="AgC-eL-Hgc" id="ozh-6m-IqG"/>
+                            </connections>
+                        </switch>
+                        <button width="1" alignment="left" verticalAlignment="bottom" title="Record Mood" id="Hcp-WV-oVa">
+                            <connections>
+                                <segue destination="X0k-HK-pSn" kind="push" identifier="moodDetailsSegue" id="J1y-63-ya9"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="moodImage" destination="a7j-SQ-A9v" id="eqh-y5-iZd"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Mood Details Controller-->
+        <scene sceneID="4y8-Z1-f5v">
+            <objects>
+                <controller id="X0k-HK-pSn" customClass="MoodDetailsController" customModule="MoodTracker_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="Xkv-LL-WTy">
+                            <items>
+                                <imageView width="0.5" widthAdjustment="-4" alignment="left" verticalAlignment="center" image="rage1" contentMode="scaleAspectFit" id="AvE-oS-v1J"/>
+                                <separator alignment="center" id="NjO-nj-w2o"/>
+                                <label width="0.5" widthAdjustment="-4" alignment="center" verticalAlignment="center" text="Label" id="3ts-sb-xzs"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="QJa-XW-dMn">
+                            <items>
+                                <label width="1" alignment="left" text="The quick brown fox jumps over the lazy dog." numberOfLines="0" id="TOb-I2-EdJ"/>
+                                <separator alignment="left" id="ylR-Z3-e8z"/>
+                                <label width="1" alignment="left" text="Advice goes here!" numberOfLines="0" id="8T4-AE-Id4"/>
+                            </items>
+                            <edgeInsets key="margins" left="4" right="4" top="0.0" bottom="0.0"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="moodAdviceLabel" destination="8T4-AE-Id4" id="zn5-Go-mnv"/>
+                        <outlet property="moodDescriptionLabel" destination="TOb-I2-EdJ" id="fJa-Ir-4vL"/>
+                        <outlet property="moodImage" destination="AvE-oS-v1J" id="WaG-SF-neM"/>
+                        <outlet property="moodNameLabel" destination="3ts-sb-xzs" id="KFR-c6-Orb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="427" y="308"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ssn-nt-KlI">
+            <objects>
+                <controller id="kz2-Cm-L9c">
+                    <items>
+                        <group width="1" alignment="left" id="Ayk-eq-t3x">
+                            <items>
+                                <imageView width="0.5" alignment="left" image="rage0" id="2pC-Uq-esE"/>
+                                <imageView width="0.5" alignment="right" image="rage0" id="NeL-7W-0fT"/>
+                            </items>
+                        </group>
+                        <switch width="1" alignment="left" value="YES" title="Switch" id="gRB-jQ-SHH"/>
+                        <imageView alignment="center" image="rage2" id="o3G-HF-FAZ"/>
+                        <group width="1" alignment="left" id="QWG-jj-5V2">
+                            <items>
+                                <imageView width="0.5" alignment="left" image="rage3" id="JnT-ZQ-hDD"/>
+                                <button width="0.5" alignment="left" verticalAlignment="center" title="Select" id="6Nv-Qp-HHE"/>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Iye-c6-SHy">
+                            <items>
+                                <group width="0.50000000000000011" alignment="left" layout="vertical" id="kgd-Dx-rES">
+                                    <items>
+                                        <button width="1" alignment="left" title="One" id="NEn-eU-vDv"/>
+                                        <button width="1" alignment="left" title="Two" id="Z2T-Pc-C93"/>
+                                    </items>
+                                </group>
+                                <imageView alignment="left" image="rage4" id="6NH-WY-TaY"/>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="703" y="291"/>
+        </scene>
+    </scenes>
+</document>

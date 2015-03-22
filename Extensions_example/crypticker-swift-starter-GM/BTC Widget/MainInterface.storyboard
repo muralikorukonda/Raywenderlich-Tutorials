@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="BTC_Widget" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$200" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqM-lo-OCK">
+                                <rect key="frame" x="16" y="8" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.25882352941176467" green="0.56862745098039214" blue="0.82745098039215681" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1.23" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60J-Ec-im0">
+                                <rect key="frame" x="224" y="8" width="44" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.52156862745098043" green="0.74901960784313726" blue="0.14509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5J-1P-DMP">
+                                <rect key="frame" x="276" y="0.0" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="YsF-Se-P8V"/>
+                                    <constraint firstAttribute="height" constant="44" id="q5x-pW-ov8"/>
+                                </constraints>
+                                <state key="normal" image="caret-notification-center">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="toggleLineChart:" destination="M4Y-Lb-cyx" eventType="touchUpInside" id="MSR-Oq-hig"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dat-qU-rDF" customClass="JBLineChartView">
+                                <rect key="frame" x="0.0" y="52" width="320" height="98"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="h6r-mc-11R"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="60J-Ec-im0" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="4bI-kS-bC6"/>
+                            <constraint firstItem="Dat-qU-rDF" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" id="B80-P6-lDx"/>
+                            <constraint firstItem="OqM-lo-OCK" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="PeD-Kf-2ea"/>
+                            <constraint firstItem="OqM-lo-OCK" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="16" id="T9q-eX-yl8"/>
+                            <constraint firstAttribute="trailing" secondItem="Dat-qU-rDF" secondAttribute="trailing" id="hgu-E7-FAz"/>
+                            <constraint firstItem="Dat-qU-rDF" firstAttribute="top" secondItem="U5J-1P-DMP" secondAttribute="bottom" constant="8" id="jvI-iP-bGa"/>
+                            <constraint firstAttribute="trailing" secondItem="U5J-1P-DMP" secondAttribute="trailing" id="nbg-Ve-NR1"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="Dat-qU-rDF" secondAttribute="bottom" id="wpK-9M-q0T"/>
+                            <constraint firstItem="U5J-1P-DMP" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="xmO-6F-HGZ"/>
+                            <constraint firstItem="U5J-1P-DMP" firstAttribute="leading" secondItem="60J-Ec-im0" secondAttribute="trailing" constant="8" symbolic="YES" id="y3t-Ig-R5k"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="150"/>
+                    <connections>
+                        <outlet property="lineChartHeightConstraint" destination="h6r-mc-11R" id="2Aa-FD-wAg"/>
+                        <outlet property="lineChartView" destination="Dat-qU-rDF" id="EoA-hF-j4s"/>
+                        <outlet property="priceChangeLabel" destination="60J-Ec-im0" id="ila-dj-jy9"/>
+                        <outlet property="priceLabel" destination="OqM-lo-OCK" id="MeH-8o-wtY"/>
+                        <outlet property="toggleLineChartButton" destination="U5J-1P-DMP" id="Zrh-sE-eAl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="505" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="caret-notification-center" width="14" height="9"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

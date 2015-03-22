@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Centipede</string>
+		<key>image</key>
+		<string>centipede.jpg</string>
+		<key>howScary</key>
+		<integer>3</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Ladybug</string>
+		<key>image</key>
+		<string>ladybug.jpg</string>
+		<key>howScary</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Potato Bug</string>
+		<key>image</key>
+		<string>potatoBug.jpg</string>
+		<key>howScary</key>
+		<integer>4</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Wolf Spider</string>
+		<key>image</key>
+		<string>wolfSpider.jpg</string>
+		<key>howScary</key>
+		<integer>5</integer>
+	</dict>
+</array>
+</plist>

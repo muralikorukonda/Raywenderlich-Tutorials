@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Questions</key>
+	<array>
+		<dict>
+			<key>question</key>
+			<string>Which character was a twin in Finaly Fantasy II?</string>
+			<key>answer1</key>
+			<string>Cecil</string>
+			<key>answer2</key>
+			<string>Kain</string>
+			<key>answer3</key>
+			<string>Palom</string>
+			<key>answer4</key>
+			<string>Tellah</string>
+			<key>rightAnswer</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+</dict>
+</plist>
